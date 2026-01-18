@@ -1,21 +1,22 @@
-# Discord Sales Bot 💰
+# Flask Auth System 🔐
 
-A professional Discord sales bot built with Python that manages digital product sales and automatic delivery.
+A simple authentication system built with Flask, featuring user registration, login, and protected routes.
 
 ## 🔧 Technologies
 - Python
-- discord.py
-- JSON
-- Discord API
+- Flask
+- Werkzeug (password hashing)
+- Sessions
 
 ## 📌 Features
-- Product listing
-- Order creation
-- Stock control
-- Automatic key delivery
-- Admin-only delivery command
+- User registration
+- Secure login
+- Password hashing
+- Protected dashboard
+- Session management
 
 ## ▶️ How to run
 
-1. Create a Discord bot and copy the token
-2. Create a `.env` file and add:
+```bash
+pip install -r requirements.txt
+python app.py
